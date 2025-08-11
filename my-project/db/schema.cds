@@ -22,7 +22,7 @@ type Price {
     currency: String(3);
 }
 
-entity Autors {
+entity Authors {
     key ID: UUID;
     name: String(100);
     dateOfBirth: Date;
